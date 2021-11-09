@@ -33,7 +33,7 @@ p {
   font-size: 14pt;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   h2 {
     font-size: 16pt;
   }
@@ -70,7 +70,7 @@ p {
   height: 200px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .circle-small {
     width: 50px;
     height: 50px;
@@ -99,7 +99,7 @@ p {
   border-bottom: solid 2px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .btn-read-more {
     font-size: 12pt;
   }
@@ -181,7 +181,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-hello .greet h2 {
     font-size: 14pt;
   }
@@ -235,7 +235,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-philosophy {
     padding: 50px 1%;
   }
@@ -287,7 +287,7 @@ p {
   font-size: 12pt;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-about .row .centered-info .content p {
     width: 80%;
   }
@@ -329,7 +329,7 @@ p {
   background-image: linear-gradient(#fbace7, #6a32f5);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-about .row #mission {
     padding: 50px;
   }
@@ -383,7 +383,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-about .row .art-scenery {
     padding: 20px;
   }
@@ -471,7 +471,7 @@ p {
   visibility: visible;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-about .row-exellence-innovation .exellence-innovation {
     width: 100%;
     padding: 0;
@@ -598,7 +598,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-art-display .display .art {
     width: 220px;
     height: 200px;
@@ -695,7 +695,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   #section-we-rock {
     padding: 50px;
   }
