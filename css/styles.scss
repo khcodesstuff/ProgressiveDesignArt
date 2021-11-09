@@ -34,6 +34,18 @@ p{
     font-size: 14pt;
 }
 
+@media(max-width: 400px){
+    h2{
+        font-size: 16pt;
+    }
+    h1{
+        font-size: 30pt;
+    }
+    p{
+        font-size: 12pt;
+    }
+}
+
 .orange-circle{
     background-image: url("../images/orange_circle.png");
     background-size: cover;
@@ -59,6 +71,23 @@ p{
     height: 200px;
 }
 
+@media(max-width: 400px){
+    .circle-small{
+        width: 50px;
+        height: 50px;
+    }
+
+    .circle-medium{
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle-big{
+        width: 110px;
+        height: 110px;
+    }
+}
+
 .green-line{
     position: absolute;
     
@@ -75,6 +104,11 @@ p{
     font-size: 14pt;
 
     border-bottom: solid 2px;
+}
+@media(max-width: 400px){
+    .btn-read-more{
+        font-size: 12pt;
+    }
 }
 
 #section-hello{
@@ -135,6 +169,21 @@ p{
         padding: 4%;
     }
 }
+@media(max-width: 400px){
+    #section-hello{
+        .greet{
+            h2{
+                font-size: 14pt;
+            }
+            h1{
+                font-size: 44pt;
+            }
+            p{
+                font-size: 12pt;
+            }
+        }
+    }
+}
 
 #section-philosophy{
     position: relative;
@@ -172,6 +221,18 @@ p{
         padding: 100px 4%;
     }
 }
+@media(max-width: 400px){
+    #section-philosophy{
+        padding: 50px 1%;
+        .green-line{
+            border-width: 5px;
+        }
+        p{
+            width: 70%;
+            line-height: 30px;
+        }
+    }
+}
 
 #section-about{
     .row{
@@ -202,6 +263,11 @@ p{
                     line-height: 26px;
                     letter-spacing: 8px;
                     font-size: 12pt;
+                }
+                @media(max-width: 400px){
+                    p{
+                        width: 80%;
+                    }
                 }
                 a{
                     color: inherit;
@@ -234,6 +300,11 @@ p{
         #mission{
             padding: 80px 100px;
             background-image: linear-gradient(#fbace7, #6a32f5);;
+        }
+        @media(max-width: 400px){
+            #mission{
+                padding: 50px;
+            }
         }
 
         .art-scenery{
@@ -284,6 +355,25 @@ p{
             .art-scenery-left{
                 .art{
                     right: 50px;
+                }
+            }
+        }
+        @media(max-width: 400px){
+            .art-scenery{
+                padding: 20px;
+
+                .art{
+                    width: 300px;
+                    height: 280px;
+
+                    top: 50px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+            .art-scenery-left{
+                .art{
+                    right: 0;
                 }
             }
         }
@@ -352,6 +442,25 @@ p{
             }
             .art-center.animate__animated{
                 visibility: visible;
+            }
+
+        }
+        @media(max-width: 400px){
+            .exellence-innovation{
+                width: 100%;
+                padding: 0;
+
+                .info{
+                    padding: 0 10%;
+                }
+                .info-left{
+                    margin-bottom: 50px;
+                }
+                .art-center{
+                    justify-self: center;
+                    max-width: 68%;
+                    height: 100px;
+                }
             }
         }
     }
@@ -456,6 +565,16 @@ p{
         }
     }
 }
+@media(max-width: 400px){
+    #section-art-display{
+        .display{
+            .art{
+                width: 220px;
+                height: 200px;
+            }
+        }
+    }
+}
 
 
 #section-we-rock{
@@ -546,6 +665,25 @@ p{
             width: 100%;
 
             background-position: center;
+        }
+    }
+}
+
+@media(max-width: 400px){
+    #section-we-rock{
+        padding: 50px;
+
+        .info{
+            margin-bottom: 50px;
+
+            .green-line{
+                right: -42%;
+            }
+
+            .orange-circle{
+                bottom: 20px;
+                z-index: -1;
+            }
         }
     }
 }
