@@ -34,12 +34,12 @@ p {
 }
 
 .orange-circle {
-  background-image: url("/images/orange_circle.png");
+  background-image: url("../images/orange_circle.png");
   background-size: cover;
 }
 
 .purple-circle {
-  background-image: url("/images/purple-circle.png");
+  background-image: url("../images/purple-circle.png");
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   height: 90vh;
-  background-image: url("/images/landing_art.png");
+  background-image: url("../images/landing_art.png");
   background-size: cover;
   background-position: center;
 }
@@ -279,12 +279,12 @@ p {
 }
 
 #section-about .row .art-scenery .history-art {
-  background-image: url("/images/history_art.jpeg");
+  background-image: url("../images/history_art.jpeg");
   background-size: cover;
 }
 
 #section-about .row .art-scenery .mission-art {
-  background-image: url("/images/mission_art.jpeg");
+  background-image: url("../images/mission_art.jpeg");
   background-size: cover;
 }
 
@@ -324,7 +324,7 @@ p {
 }
 
 #section-about .row-exellence-innovation .right-bg {
-  background-image: url("/images/innovation_bg.jpeg");
+  background-image: url("../images/innovation_bg.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -373,7 +373,7 @@ p {
   justify-self: flex-end;
   max-width: 360px;
   height: 360px;
-  background-image: url("/images/exelence_innovation-art.jpeg");
+  background-image: url("../images/exelence_innovation-art.jpeg");
   background-position: center;
   background-size: cover;
   border-style: dotted;
@@ -454,29 +454,29 @@ p {
 }
 
 #section-art-display .display .art_1 {
-  background-image: url("/images/art_1.jpeg");
+  background-image: url("../images/art_1.jpeg");
   -webkit-animation-delay: .4s;
           animation-delay: .4s;
 }
 
 #section-art-display .display .art_2 {
-  background-image: url("/images/art_2.jpeg");
+  background-image: url("../images/art_2.jpeg");
   -webkit-animation-delay: .2s;
           animation-delay: .2s;
 }
 
 #section-art-display .display .art_3 {
-  background-image: url("/images/art_3.jpeg");
+  background-image: url("../images/art_3.jpeg");
 }
 
 #section-art-display .display .art_4 {
-  background-image: url("/images/art_4.jpeg");
+  background-image: url("../images/art_4.jpeg");
   -webkit-animation-delay: .2s;
           animation-delay: .2s;
 }
 
 #section-art-display .display .art_5 {
-  background-image: url("/images/art_5.jpeg");
+  background-image: url("../images/art_5.jpeg");
   -webkit-animation-delay: .4s;
           animation-delay: .4s;
 }
@@ -550,7 +550,7 @@ p {
 #section-we-rock .art {
   width: 560px;
   height: 430px;
-  background-image: url("/images/art_number_5.jpeg");
+  background-image: url("../images/art_number_5.jpeg");
   background-size: cover;
 }
 

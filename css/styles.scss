@@ -35,12 +35,12 @@ p{
 }
 
 .orange-circle{
-    background-image: url("/images/orange_circle.png");
+    background-image: url("../images/orange_circle.png");
     background-size: cover;
 }
 
 .purple-circle{
-    background-image: url("/images/purple-circle.png");
+    background-image: url("../images/purple-circle.png");
     background-size: cover;
 }
 
@@ -85,7 +85,7 @@ p{
 
     height: 90vh;
 
-    background-image: url("/images/landing_art.png");
+    background-image: url("../images/landing_art.png");
     background-size: cover;
     background-position: center;
 
@@ -251,11 +251,11 @@ p{
                 height: 460px;
             }
             .history-art{
-                background-image: url("/images/history_art.jpeg");
+                background-image: url("../images/history_art.jpeg");
                 background-size: cover;
             }
             .mission-art{
-                background-image: url("/images/mission_art.jpeg");
+                background-image: url("../images/mission_art.jpeg");
                 background-size: cover;
                 
             }
@@ -298,7 +298,7 @@ p{
             background-image: linear-gradient(#fed50a, #fbace7);
         }
         .right-bg{
-            background-image: url("/images/innovation_bg.jpeg");   
+            background-image: url("../images/innovation_bg.jpeg");   
             background-size: cover;
             background-position: center;
         }
@@ -342,7 +342,7 @@ p{
                 max-width: 360px;
                 height: 360px;
 
-                background-image: url("/images/exelence_innovation-art.jpeg");
+                background-image: url("../images/exelence_innovation-art.jpeg");
                 background-position: center;
                 background-size: cover;
             
@@ -424,22 +424,22 @@ p{
             visibility: visible;
         }
         .art_1{
-            background-image: url("/images/art_1.jpeg");
+            background-image: url("../images/art_1.jpeg");
             animation-delay: .4s;
         }
         .art_2{
-            background-image: url("/images/art_2.jpeg");
+            background-image: url("../images/art_2.jpeg");
             animation-delay: .2s;
         }
         .art_3{
-            background-image: url("/images/art_3.jpeg");
+            background-image: url("../images/art_3.jpeg");
         }
         .art_4{
-            background-image: url("/images/art_4.jpeg");
+            background-image: url("../images/art_4.jpeg");
             animation-delay: .2s;
         }
         .art_5{
-            background-image: url("/images/art_5.jpeg");
+            background-image: url("../images/art_5.jpeg");
             animation-delay: .4s;
         }
     }
@@ -514,7 +514,7 @@ p{
         width: 560px;
         height: 430px;
 
-        background-image: url("/images/art_number_5.jpeg");
+        background-image: url("../images/art_number_5.jpeg");
         background-size: cover;
     }
 }
