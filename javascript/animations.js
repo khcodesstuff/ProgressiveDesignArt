@@ -35,14 +35,16 @@ $(function(){
         anim_based_on_scroll(block_exellence_innovation, block_ex_in_content_in, 'fadeInRight', 0, 300);
         anim_based_on_scroll(block_exellence_innovation, block_ex_in_art, 'zoomIn', 0, 300);
         
-        if(is_scrolled_over(section_art_display)){
-            for(let i = 0; i < art_to_display.length; i++){
-                animateCSS_reset(art_to_display[i], 'fadeIn');
+        if (!window.matchMedia('(max-width: 800px)').matches){
+            if(is_scrolled_over(section_art_display)){
+                for(let i = 0; i < art_to_display.length; i++){
+                    animateCSS_reset(art_to_display[i], 'fadeIn');
+                }
             }
-        }
-        else if(is_scrolled_to_bottom(section_art_display, 200)){
-            for(let i = 0; i < art_to_display.length; i++){
-                animateCSS(art_to_display[i], 'fadeIn');
+            else if(is_scrolled_to_bottom(section_art_display, 200)){
+                for(let i = 0; i < art_to_display.length; i++){
+                    animateCSS(art_to_display[i], 'fadeIn');
+                }
             }
         }
 

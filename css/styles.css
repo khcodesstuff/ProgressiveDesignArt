@@ -591,16 +591,20 @@ p {
   #section-art-display .display {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 50px;
+    width: 100%;
   }
   #section-art-display .display .art {
-    width: 450px;
+    width: 80%;
     height: 300px;
+    visibility: visible;
   }
 }
 
 @media (max-width: 440px) {
   #section-art-display .display .art {
-    width: 220px;
+    width: 100%;
     height: 200px;
   }
 }
